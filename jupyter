@@ -1,0 +1,1 @@
+docker run -p 8888:8888 -v $1:/jupyter -e JUPYTER_ENABLE_LAB=yes phase4 /bin/sh -c 'cd /jupyter && jupyter-notebook --ip=0.0.0.0 --port 8888 --allow-root'

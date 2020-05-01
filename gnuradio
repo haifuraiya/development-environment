@@ -1,0 +1,2 @@
+#/bin/bash
+x11docker --gpu --share=$HOME -- -- phase4 /bin/bash -c "source /pybombs/setup_env.sh && /pybombs/bin/gnuradio-companion"
