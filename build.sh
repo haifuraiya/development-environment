@@ -3,6 +3,12 @@
 # install Docker
 sudo apt install docker-ce
 
+# get the repositories
+mkdir repositories
+cd repositories
+git clone https://github.com/drmpeg/gr-dvbs2.git
+cd ..
+
 # build the Docker image
 docker build -t phase4 .
 
